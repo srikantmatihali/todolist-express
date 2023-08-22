@@ -33,6 +33,7 @@ Built using Node 18 Version.
 COMMANDS TO RUN THE APPLICATION
 
 > npm i
+
 > npm start
 
 
