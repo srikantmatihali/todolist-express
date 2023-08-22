@@ -31,26 +31,29 @@ This task evaluates the candidate's ability to work with Express.js, handle rout
 
 Built using Node 18 Version.
 COMMANDS TO RUN THE APPLICATION
-
+```
 > npm i
 
 > npm start
-
+```
 
 ============
 
 INSERT API
-
+```
 curl --location 'http://localhost:3000/todos/' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'title=test' \
 --data-urlencode 'description=test'
+```
 
 LISTING API
-curl --location 'http://localhost:3000/todos/'
+
+```curl --location 'http://localhost:3000/todos/'```
 
 SINGLE DATA LIST API
-curl --location 'http://localhost:3000/todos/1'
+
+```curl --location 'http://localhost:3000/todos/1'```
 
 DELETE API
-curl --location --request DELETE 'http://localhost:3000/todos/1'
+```curl --location --request DELETE 'http://localhost:3000/todos/1'```
